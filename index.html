@@ -5,6 +5,10 @@
         <meta http-equiv="Content-Type" content="text/html">
         <title>Hi</title>
         <style>
+            body {
+                margin-top: 30px;
+            }
+
             * {
                 margin: 0;
                 padding: 0;
@@ -12,10 +16,15 @@
 
             /* menu */
             .menu {
+                width: 100%;
+                height: 30px;
                 background-color: #fa0;
                 text-align: right;
                 padding-right: 20px;
-                font-size: 0;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
             }
 
             .menu a {
@@ -40,15 +49,20 @@
 
             /* container */
             .container {
-                width: 960px;
+                width: 100%;
+                max-width: 960px;
                 padding: 10px;
                 box-sizing: border-box;
                 margin: auto;
             }
 
             .container1 {
-                width: 960px;
+                width: 100%;
+                max-width: 960px;
                 margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                box-sizing: border-box;
             }
 
             .float-img-left {
@@ -84,33 +98,48 @@
         </style>
     </head>
     <body>
-        <div class="menu">
-            <img class="mark" src="https://fakeimg.pl/100x30/44aaff/000000/">
+        <nav class="menu">
+            <img class="mark" src="http://picsum.photos/100/30/?random">
             <a href="#">Link1</a>
             <a href="#">Link2</a>
             <a href="#">Link3</a>
             <a href="#">Link4</a>
             <a>Link5</a>
-        </div>
+        </nav>
         <div class="container" style="background-color: rgb(51, 220, 164);">
-            <img class="float-img-left" src="https://fakeimg.pl/250x150/aaaaaa/000000/">
+            <img class="float-img-left" src="http://picsum.photos/250/150/?random">
             <div>As old wood is best to burn, old horse to ride, old books to read, and old wine to drink, so are old friends always most trusty to use.</div>
             <div>Books are those faithful mirrors that reflect to our minds of sages and heroes.</div>
             <div class="clear_fix"></div>
         </div>
         <div class="container1" style="background-color: burlywood;">
             <div class="col">
-                <img src="https://fakeimg.pl/200x200/aaaaaa/000000">
+                <img src="http://picsum.photos/200/200/?random1">
                 <h3>title</h3>
                 <p>讀書數萬卷，胸中無適主；便如致富兒，頗為用錢苦。</p>
             </div>
             <div class="col">
-                <img src="https://fakeimg.pl/200x200/aaaaaa/000000">
+                <img src="http://picsum.photos/200/200/?random2">
                 <h3>title</h3>
                 <p>在所有的自由中，沒有「不讀一流書」的自由；在所有的選擇中，沒有「不做一流人」的選擇。</p>
             </div>
             <div class="col">
-                <img src="https://fakeimg.pl/200x200/aaaaaa/000000">
+                <img src="http://picsum.photos/200/200/?random3">
+                <h3>title</h3>
+                <p>夫讀書將以何為哉？辨其大義，以立修治人之體也。</p>
+            </div>
+            <div class="col">
+                <img src="http://picsum.photos/200/200/?random4">
+                <h3>title</h3>
+                <p>讀書數萬卷，胸中無適主；便如致富兒，頗為用錢苦。</p>
+            </div>
+            <div class="col">
+                <img src="http://picsum.photos/200/200/?random5">
+                <h3>title</h3>
+                <p>在所有的自由中，沒有「不讀一流書」的自由；在所有的選擇中，沒有「不做一流人」的選擇。</p>
+            </div>
+            <div class="col">
+                <img src="http://picsum.photos/200/200/?random6">
                 <h3>title</h3>
                 <p>夫讀書將以何為哉？辨其大義，以立修治人之體也。</p>
             </div>
