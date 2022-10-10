@@ -1,0 +1,4 @@
+@keyframes hotTagAnim {
+    0% { background-color: #f00; }
+  100% { background-color: rgb(176, 12, 12); }
+}

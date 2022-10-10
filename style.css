@@ -8,9 +8,8 @@ body {
     padding: 0;
 }
 
-/* menu nav */
-.nav {
-    display: flex;
+/* nav */
+.top {
     width: 100%;
     background-color: #9C724A;
     position: fixed;
@@ -20,13 +19,18 @@ body {
     z-index: 10;
 }
 
-.nav nav {
+.top .nav {
+    display: flex;
+    width: 100%;
+}
+
+.top .nav nav {
     text-align: right;
     width: 100%;
     font-size: 0;
 }
 
-.nav nav a {
+.top .nav nav a {
     color: #fff;
     opacity: 1;
     text-decoration: none;
@@ -38,14 +42,25 @@ body {
     transition: all 0.5s 0s ease;
 }
 
-.nav nav a:hover {
+.top .nav nav a:hover {
     opacity: 0.;
     background-color: rgb(202, 112, 22);
     transition: all 0.5s 0s ease;
 }
 
-.nav img {
+.top .nav img {
     padding: 5px 15px;
+}
+
+/* marquee */
+.marquee {
+    width: 100%;
+}
+
+.marquee marquee {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 /* banner */
@@ -102,6 +117,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    animation: hotTagAnim 1s infinite alternate;
 }
 
 .float-img-left {
@@ -159,9 +175,9 @@ html {
     opacity: 1;
     text-decoration: none;
     display: inline-block;
-    padding: 16px 16px;
+    padding: 16px;
     background-color: none;
-    font-size: 18px;
+    font-size: 16px;
     transition: all 0.5s 0s ease;
 }
 
@@ -175,7 +191,7 @@ html {
     color: #fff;
     background-color: #381801;
     display: inline-block;
-    padding: 16px 16px;
+    padding: 12px;
     background-color: none;
     box-sizing: border-box;
     font-size: 14px;
