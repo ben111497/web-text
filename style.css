@@ -1,0 +1,178 @@
+body {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* menu nav */
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #9C724A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.nav nav {
+    text-align: right;
+    width: 100%;
+    font-size: 0;
+}
+
+.nav nav a {
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 15px;
+    background-color: none;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.menu a:hover {
+    opacity: 0.;
+    background-color: rgb(202, 112, 22);
+}
+
+.nav img {
+    padding: 5px 15px;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    font-size: 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* path */
+.path {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.path li {
+    padding: 6px 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.path li + li::before {
+    content: '>';
+    color: rgb(120, 95, 20);
+    position: absolute;
+    left: 0px;
+}
+
+.path li a {
+    color: rgb(197, 119, 23);
+    text-decoration: none; /* 文字樣式清除，例如：底線 */
+}
+
+/* container */
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.container .tag {
+    font-size: 14px;
+    padding: 10px 12px;
+    background-color: #f00;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.float-img-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.float-img-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.clear_fix {
+    clear: both;
+}
+
+.col {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #444;
+    box-sizing: border-box;
+    float: left;
+}
+
+.col img {
+    width: 100%;
+}
+
+.col h3 {
+    color: #444;
+}
+
+/* CopyRight */
+html {
+    position: relative;
+}
+
+.copy_right {
+    width: 100%;
+    background-color: #5D3919;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.copy_right a {
+    color: #fff;
+    opacity: 1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 16px;
+    background-color: none;
+    font-size: 18px;
+}
+
+.copy_right a:hover {
+    color: rgb(25, 209, 163);
+}
+
+.copy_right div {
+    width: 100%;
+    color: #fff;
+    background-color: #381801;
+    display: inline-block;
+    padding: 16px 16px;
+    background-color: none;
+    box-sizing: border-box;
+    font-size: 14px;
+}

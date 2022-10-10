@@ -4,172 +4,29 @@
         <meta charset="UTF-8">
         <meta http-equiv="Content-Type" content="text/html">
         <title>Hi</title>
-        <style>
-            body {
-                margin-top: 30px;
-                margin-bottom: 120px;
-            }
-
-            * {
-                margin: 0;
-                padding: 0;
-            }
-
-            /* menu */
-            .menu {
-                width: 100%;
-                height: 30px;
-                background-color: #9C724A;
-                text-align: right;
-                padding-right: 20px;
-                position: fixed;
-                z-index: 10;
-                top: 0;
-                left: 0;
-                right: 0;
-            }
-
-            .menu a {
-                color: #fff;
-                opacity: 1;
-                text-decoration: none;
-                display: inline-block;
-                padding: 5px 20px;
-                background-color: none;
-                font-size: 14px;
-            }
-
-            .menu a:hover {
-                opacity: 0.;
-                background-color: rgb(202, 112, 22);
-            }
-
-            .menu img {
-                float: left;
-                padding: 0px 5px;
-            }
-
-            /* container */
-            .container {
-                width: 100%;
-                max-width: 960px;
-                padding: 10px;
-                box-sizing: border-box;
-                margin: auto;
-            }
-
-            .container1 {
-                width: 100%;
-                max-width: 960px;
-                margin: auto;
-                display: flex;
-                flex-wrap: wrap;
-                box-sizing: border-box;
-            }
-
-            .container1 .tag {
-                font-size: 14px;
-                padding: 10px 12px;
-                background-color: #f00;
-                text-align: center;
-                margin: auto;
-                color: #fff;
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-
-            .float-img-left {
-                float: left;
-                margin-right: 10px;
-            }
-
-            .float-img-right {
-                float: right;
-                margin-left: 10px;
-            }
-
-            .clear_fix {
-                clear: both;
-            }
-
-            .col {
-                width: 300px;
-                margin: 10px;
-                padding: 10px;
-                position: relative;
-                background-color: #fff;
-                border: 1px solid #444;
-                box-sizing: border-box;
-                float: left;
-            }
-
-            .col img {
-                width: 100%;
-            }
-
-            .col h3 {
-                color: #444;
-            }
-
-            /* CopyRight */
-            html {
-                position: relative;
-            }
-
-            .copy_right {
-                width: 100%;
-                background-color: #5D3919;
-                text-align: right;
-                padding-right: 20px;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                text-align: center;
-            }
-
-            .copy_right a {
-                color: #fff;
-                opacity: 1;
-                text-decoration: none;
-                display: inline-block;
-                padding: 16px 16px;
-                background-color: none;
-                font-size: 18px;
-            }
-
-            .copy_right a:hover {
-                color: rgb(25, 209, 163);
-            }
-
-            .copy_right div {
-                width: 100%;
-                color: #fff;
-                background-color: #381801;
-                display: inline-block;
-                padding: 16px 16px;
-                background-color: none;
-                font-size: 14px;
-            }
-        </style>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav class="menu">
-            <img class="mark" src="http://picsum.photos/100/30/?random">
-            <a href="#">Link1</a>
-            <a href="#">Link2</a>
-            <a href="#">Link3</a>
-            <a href="#">Link4</a>
-            <a>Link5</a>
-        </nav>
-        <div class="container">
-            <img class="float-img-left" src="http://picsum.photos/250/150/?random">
-            <div>As old wood is best to burn, old horse to ride, old books to read, and old wine to drink, so are old friends always most trusty to use.</div>
-            <div>Books are those faithful mirrors that reflect to our minds of sages and heroes.</div>
-            <div class="clear_fix"></div>
+        <div class="nav">
+            <img class="logo" src="http://picsum.photos/100/30/?random">
+            <nav class="menu">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+                <a href="#">Link4</a>
+                <a href="#">Link5</a>
+            </nav>
         </div>
-        <div class="container1" style="background-color: burlywood;">
+        <div class="banner">
+            <img src="http://picsum.photos/960/250/?random">
+        </div>
+        <ul class="path">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">全部商品</a></li>
+            <li><a href="#">居家</a></li>
+        </ul>
+        <div class="container" style="background-color: burlywood;">
             <div class="col">
                 <img src="http://picsum.photos/200/200/?random1">
                 <h3>title</h3>
